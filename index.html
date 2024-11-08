@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum de Arnau Gil Gil</title>
+
+    <!-- Fuentes e Iconos -->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Librerías CSS -->
+    <!-- AOS (Animate On Scroll) CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- Hoja de Estilos -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+
+    <!-- Navegación -->
+    <nav>
+        <div class="container">
+            <div class="logo">Arnau Gil Gil</div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de mí</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Portada -->
+    <section id="inicio" class="home">
+        <div class="overlay"></div>
+        <div class="home-content" data-aos="fade-up">
+            <h1>¡Hola! Soy <span>&lt; Arnau Gil Gil /&gt;</span></h1>
+            <h3>Un <span class="typing"></span></h3>
+            <a href="#proyectos" class="btn">Ver Mis Proyectos</a>
+        </div>
+    </section>
+
+    <!-- Acerca de mí -->
+    <section id="acerca" class="about section">
+        <div class="container">
+            <h2 class="title" data-aos="fade-up">Acerca de mí</h2>
+            <div class="about-content">
+                <div class="left" data-aos="fade-right">
+                    <img src="./public/FotoArnau.jpg" alt="Foto de Arnau Gil Gil">
+                </div>
+                <div class="right" data-aos="fade-left">
+                    <p>Soy un apasionado desarrollador web de 18 años especializado en crear experiencias digitales
+                        increíbles. Con habilidades en HTML, CSS, JavaScript y React, me encanta convertir ideas en
+                        sitios web reales y funcionales.</p>
+                    <a href="./public/Arnau Gil Gil - CV (ES).pdf" class="btn" download="CV_Arnau_Gil.pdf">Descargar CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="experience section">
+        <div class="container">
+            <h2 class="title" data-aos="fade-up">Experiencia</h2>
+            <div class="experience-content">
+                <!-- Experience Item -->
+                <div class="experience-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="image">
+                        <img src="./public/CursaMerce.jpg" alt="Cursa de la Mercè">
+                    </div>
+                    <div class="content">
+                        <h3>Cursa de la Mercè</h3>
+                        <span>2024</span>
+                        <h4>Airun S.L.</h4>
+                        <p>Participé en la organización de la cursa de la Mercè en Barcelona. Me encargué de la
+                            organización y montaje del evento.</p>
+                        <a href="https://www.barcelona.cat/cursamerce/ca/inici.php" class="btn" target="_blank">Ver Detalles</a>
+                    </div>
+                </div>
+                <!-- Experience Item -->
+                <div class="experience-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="image">
+                        <img src="./public/DissenyHub.jpg" alt="Evento Diseño">
+                    </div>
+                    <div class="content">
+                        <h3>Evento de Diseño HUB</h3>
+                        <span>2024</span>
+                        <h4>Airun S.L.</h4>
+                        <p>Colaboré en la organización de un evento de diseño en el museo del diseño de Barcelona.</p>
+                        <a href="https://www.dissenyhub.barcelona/es/calendari" class="btn" target="_blank">Ver Detalles</a>
+                    </div>
+                </div>
+                <!-- Experience Item -->
+                <div class="experience-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="image">
+                        <img src="./public/MillaSagrada.jpg" alt="Milla Sagrada Família">
+                    </div>
+                    <div class="content">
+                        <h3>Milla Sagrada Família</h3>
+                        <span>2024</span>
+                        <h4>Airun S.L.</h4>
+                        <p>Formé parte del equipo que organizó y montó una cursa urbana de 1.6km de todas las edades al
+                            lado de la Sagrada Família.</p>
+                        <a href="https://claror.cat/la-milla/" class="btn" target="_blank">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educación -->
+    <section id="educacion" class="education section">
+        <div class="container">
+            <h2 class="title" data-aos="fade-up">Educación</h2>
+            <div class="education-content">
+                <!-- Education Item -->
+                <div class="education-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon"><i class="fas fa-school"></i></div>
+                    <div class="content">
+                        <h3>Educación Secundaria Obligatoria (ESO)</h3>
+                        <span>Instituto Gravi | 2017 - 2021</span>
+                        <p>Completé la educación secundaria con enfoque en ciencias y tecnología.</p>
+                    </div>
+                </div>
+                <!-- Education Item -->
+                <div class="education-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon"><i class="fas fa-university"></i></div>
+                    <div class="content">
+                        <h3>Bachillerato Científico-Tecnológico</h3>
+                        <span>Instituto Gravi | 2021 - 2023</span>
+                        <p>Especialización en tecnología, ciencias como química y física, y audiovisuales.</p>
+                    </div>
+                </div>
+                <!-- Education Item -->
+                <div class="education-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                    <div class="content">
+                        <h3>Desarrollo de Aplicaciones Web (DAW)</h3>
+                        <span>La Salle Gràcia | 2023 - Presente</span>
+                        <p>Actualmente cursando el grado superior en Desarrollo de Aplicaciones Web, adquiriendo
+                            habilidades avanzadas en programación y diseño web.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades Técnicas -->
+    <section id="habilidades" class="skills section">
+        <div class="container">
+            <h2 class="title" data-aos="fade-up">Habilidades Técnicas</h2>
+            <div class="skills-content">
+                <!-- Skill Item -->
+                <div class="skill-item" data-aos="fade-up">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5" style="color: #e44d26;"></i>
+                    </div>
+                    <h4>HTML5</h4>
+                    <p>Nivel Intermedio</p>
+                </div>
+                <!-- Skill Item -->
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt" style="color: #264de4;"></i>
+                    </div>
+                    <h4>CSS3</h4>
+                    <p>Nivel Intermedio</p>
+                </div>
+                <!-- Skill Item -->
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square" style="color: #f0db4f;"></i>
+                    </div>
+                    <h4>JavaScript</h4>
+                    <p>Nivel Principiante</p>
+                </div>
+                <!-- Skill Item -->
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-icon">
+                        <i class="fab fa-react" style="color: #61dafb;"></i>
+                    </div>
+                    <h4>React</h4>
+                    <p>Nivel Principiante</p>
+                </div>
+                <!-- Skill Item -->
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-icon">
+                        <i class="fab fa-node" style="color: #68a063;"></i>
+                    </div>
+                    <h4>Node.js</h4>
+                    <p>Nivel Principiante</p>
+                </div>
+                <!-- Skill Item -->
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="skill-icon">
+                        <i class="fas fa-database" style="color: #4db33d;"></i>
+                    </div>
+                    <h4>MongoDB</h4>
+                    <p>Nivel Principiante</p>
+                </div>
+                <!-- Skill Item -->
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="skill-icon">
+                        <i class="fab fa-php" style="color: #777bb4;"></i>
+                    </div>
+                    <h4>PHP</h4>
+                    <p>Nivel Principiante</p>
+                </div>
+                <!-- Skill Item -->
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="700">
+                    <div class="skill-icon">
+                        <i class="fab fa-github" style="color: #333;"></i>
+                    </div>
+                    <h4>GitHub</h4>
+                    <p>Nivel Avanzado</p>
+                </div>
+                <!-- Skill Item -->
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="800">
+                    <div class="skill-icon">
+                        <i class="fab fa-linux" style="color: #f0e7b2;"></i>
+                    </div>
+                    <h4>Linux</h4>
+                    <p>Nivel Intermedio</p>
+                </div>
+                <!-- Skill Item -->
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="skill-icon">
+                        <i class="fab fa-java" style="color: #f89820;"></i>
+                    </div>
+                    <h4>Java</h4>
+                    <p>Nivel Principiante</p>
+                </div>
+                <!-- Skill Item -->
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="1100">
+                    <div class="skill-icon">
+                        <i class="fas fa-server" style="color: #8d6e63;"></i>
+                    </div>
+                    <h4>MySQL</h4>
+                    <p>Nivel Intermedio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos Personales -->
+    <section id="proyectos" class="portfolio section">
+        <div class="container">
+            <h2 class="title" data-aos="fade-up">Proyectos Personales</h2>
+            <div class="portfolio-content">
+                <!-- Proyecto 1 -->
+                <div class="portfolio-item" data-aos="zoom-in">
+                    <img src="./public/JocInteractiuExemple.jpg" alt="Proyecto 1">
+                    <div class="overlay">
+                        <h3>Juego Narrativo Interactivo en la Web</h3>
+                        <p>Un juego web de historia narrada donde el jugador toma decisiones que influyen en el
+                            desarrollo y desenlace del relato. Con tres posibles finales, la historia invita al jugador
+                            a explorar diversas opciones para descubrir cómo sus elecciones afectan el destino de los
+                            personajes.</p>
+                        <a href="https://github.com/XxArnauGxX/el-eco-de-la-oscuridad.git" class="btn"
+                            target="_blank">Ver en GitHub</a>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="./public/WebHugoExemple.jpg" alt="Proyecto 2">
+                    <div class="overlay">
+                        <h3>Sitio Web para Gimnasio de Sparring (FCT)</h3>
+                        <p>Una plataforma web para un gimnasio de sparring que incluye clases, horarios, y una tienda de
+                            ropa deportiva exclusiva. Ofrece una experiencia completa, combinando entrenamiento de
+                            combate y una sección de ventas donde los usuarios pueden comprar equipo y ropa adaptada a
+                            su estilo de vida activo.</p>
+                        <a href="https://github.com/IkerHurCab/FCT.git" class="btn" target="_blank">Ver en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact section">
+        <div class="container">
+            <h2 class="title" data-aos="fade-up">Contacto</h2>
+            <div class="contact-content">
+                <div class="left" data-aos="fade-right">
+                    <h3>Información de Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Barcelona, Cataluña</li>
+                        <li><i class="fas fa-envelope"></i> gilgilarnau@gmail.com</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/arnau-gil-gil-b8309b2b9" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/XxArnauGxX" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="right" data-aos="fade-left">
+                    <h3>Envíame un Mensaje</h3>
+                    <!-- Formulario de Contacto con Formspree -->
+                    <form id="contact-form" action="https://formspree.io/f/mwpkojkb" method="POST">
+                        <div class="field">
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                        </div>
+                        <div class="field">
+                            <input type="email" id="email" name="_replyto" placeholder="Correo Electrónico" required>
+                        </div>
+                        <div class="field">
+                            <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+                        </div>
+                        <div class="field">
+                            <label>
+                                <input type="file" name="upload" placeholder="Subir Archivo">
+                              </label>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Arnau Gil Gil. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- AOS (Animate On Scroll) JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
